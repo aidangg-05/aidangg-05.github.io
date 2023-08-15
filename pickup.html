@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class ="navbar">
+        <ul>
+          <div class="navlinks">
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><p class="dot">•</p></li>
+            <li><a href="comingsoon.html">Locations</a></li>
+            <li><p class="dot">•</p></li>
+            <li><a href="index.html">Home</a></li>
+          </div>
+            <li>
+              <button id="button"><img class="hamburger" src="images/burger.png"/></button>
+            </li>
+            
+            <li id ="name">Joji's Black Market</li>
+            <li style="float:left">
+                <img id="ramen" src="images/BSmH.gif"/>
+            </li>
+        </ul>
+    </div> 
+    <div class="empty"> </div> 
+    <div class="container">
+      <div class="yeehaw">Pick up</div>
+    </div>
+    <div class="qrcode">
+    <script>
+        var x = Math.floor((Math.random() * 100) + 1);
+        document.write("<img src='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + x + "'>")
+    </script>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
